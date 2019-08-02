@@ -1,0 +1,11 @@
+framework module SUB11 {
+  umbrella header "SUB11.h"
+
+  export *
+  module * { export * }
+}
+
+module SUB11.Swift {
+    header "SUB11-Swift.h"
+    requires objc
+}
